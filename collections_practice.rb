@@ -43,7 +43,7 @@ end
 def add_s(array)
   collection = []
   array.each_with_index do |element, index|
-    if array[1] == index
+    if array[1] = index
       collection << index
     else 
       collection << element + "s" 
