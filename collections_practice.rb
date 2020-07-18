@@ -46,7 +46,7 @@ def add_s(array)
     if array[1] == element
       collection << element
     else 
-      collection << index + "s" 
+      collection << element + "s" 
 end
 end
   collection
